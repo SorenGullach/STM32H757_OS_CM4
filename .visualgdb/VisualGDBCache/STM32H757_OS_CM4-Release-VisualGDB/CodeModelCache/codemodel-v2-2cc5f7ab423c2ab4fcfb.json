@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RELEASE-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "RELEASE",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "STM32H757_OS_CM4",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BSP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BSP-RELEASE-d0fc0e13f6c63eff84d0.json",
+					"name" : "BSP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STM32H757_OS_CM4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STM32H757_OS_CM4-RELEASE-a611af5dec60fbd159d1.json",
+					"name" : "STM32H757_OS_CM4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "STM32H757_OS_CM4-bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STM32H757_OS_CM4-bin-RELEASE-ac0de5689a64fecb631a.json",
+					"name" : "STM32H757_OS_CM4-bin",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Projects/STM32H757_OS/STM32H757_OS_CM4/build/VisualGDB/Release",
+		"source" : "C:/Projects/STM32H757_OS/STM32H757_OS_CM4"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<AdvancedMemoryMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Memories>
+    <MCUMemory>
+      <Name>FLASH</Name>
+      <Address>135266304</Address>
+      <Size>1048576</Size>
+      <AddressSpaceSize>0</AddressSpaceSize>
+      <Flags>IsDefaultFLASH</Flags>
+    </MCUMemory>
+    <MCUMemory>
+      <Name>RAM_D2</Name>
+      <Address>268435456</Address>
+      <Size>294912</Size>
+      <AddressSpaceSize>0</AddressSpaceSize>
+      <Flags>None</Flags>
+    </MCUMemory>
+    <MCUMemory>
+      <Name>SHARED</Name>
+      <Address>939524096</Address>
+      <Size>65535</Size>
+      <AddressSpaceSize>0</AddressSpaceSize>
+      <Flags>None</Flags>
+    </MCUMemory>
+    <MCUMemory>
+      <Name>BKPSRAM</Name>
+      <Address>947912704</Address>
+      <Size>4095</Size>
+      <AddressSpaceSize>0</AddressSpaceSize>
+      <Flags>None</Flags>
+    </MCUMemory>
+  </Memories>
+</AdvancedMemoryMap>
